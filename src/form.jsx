@@ -25,7 +25,7 @@ const MealForm = () => {
     
     const handleSubmit = (event) => {
          event.preventDefault();
-         fetch('https://food-scheduler2000.herokuapp.com/api/addmeal', {
+         fetch('/api/addmeal', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'

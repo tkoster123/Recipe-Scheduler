@@ -59,7 +59,7 @@ const SignUp = () => {
                     </div>
 
                     <div className="button-section-login">
-                        <button className="button add" type="button" onClick={() => {navigate('/about')}}>Back To Login</button>
+                        <button className="button add" type="button" onClick={() => {navigate('/')}}>Back To Login</button>
                         <button className="button submit" type="submit">Create Account</button>
                     </div>
             </form>

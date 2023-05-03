@@ -51,7 +51,7 @@ const EditForm = () => {
         let newFormValues = {...formIngredients}
         newFormValues['username'] = JSON.parse(localStorage.getItem('user'));;
 
-        await fetch('/api/updateMeal', {
+        await fetch('https://food-scheduler2000.herokuapp.com/api/updateMeal', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'

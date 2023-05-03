@@ -24,7 +24,7 @@ const Planner = () => {
 
     const getData = async () => {
         let response = await(
-            await fetch(`/api/getPlanData/${currentUser}` , {
+            await fetch(`https://food-scheduler2000.herokuapp.com/api/getPlanData/${currentUser}` , {
               method: 'GET',
               headers: {
                 'Content-Type': 'application/json'

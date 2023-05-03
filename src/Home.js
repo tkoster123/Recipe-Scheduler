@@ -10,7 +10,7 @@ function Home() {
   const getData = async (user) => {
     console.log(user);
     let response = await(
-      await fetch(`/api/${user}` , {
+      await fetch(`https://food-scheduler2000.herokuapp.com/api/${user}` , {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json'

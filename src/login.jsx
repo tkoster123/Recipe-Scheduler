@@ -14,7 +14,7 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         const data = {username: userName, password: password}
-        let response = await (await fetch('/api/login', {
+        let response = await (await fetch('https://food-scheduler2000.herokuapp.com/api/login', {
             method: 'POST',
             body: JSON.stringify(data),
             headers: {

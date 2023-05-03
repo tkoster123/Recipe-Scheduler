@@ -1,0 +1,74 @@
+h1 {
+  text-align: center;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 65%;
+  padding: px 40px 40px 40px;
+  
+}
+
+.center input {
+    margin: 5px 40px 30px 0;
+    padding: 15pt;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+  .form-inline {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 15px 25%;
+  }
+
+  .form-inline label {
+    margin: 5px 10px 5px 0;
+  }
+
+  .form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+
+  .button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+  }
+  .button {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: royalblue;
+  }
+
+  .remove {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(192, 53, 53);
+  }
+  .remove:hover {
+    background-color: rgb(187, 43, 43);
+  }

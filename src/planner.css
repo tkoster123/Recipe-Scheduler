@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+.plannerform {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: lightblue;
+    padding: 40px;
+      
+  } 
+
+  .fields label {
+    margin: 5px 10px 5px ;
+  }
+  
+  .fields input {
+    align-items: center;
+   
+    margin: 5px 10px 5px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  body {font-family: Arial, Helvetica, sans-serif;}
+  * {box-sizing: border-box;}
+  
+  .button-section-login {
+      padding-right: 10px;
+      
+  }
+    .button {
+      padding: 10px 20px;
+      background-color: rgb(102, 102, 163);
+      border: 1px solid #ddd;
+      color: white;
+      cursor: pointer;
+    }
+  
+    .button:hover {
+      background-color: royalblue;
+    }

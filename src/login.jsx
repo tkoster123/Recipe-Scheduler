@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {useNavigate} from "react-router-dom";
-
+import LaunchNav from "./LaunchNav";
 import "./login.css";
 
 const Login = () => {
@@ -35,7 +35,7 @@ const Login = () => {
 
     return(
         <>
-            
+            <LaunchNav/>
             <h1>Login</h1>
             <div className="loginform">
                 

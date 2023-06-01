@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {useNavigate} from "react-router-dom";
 import "./login.css";
-
+import LaunchNav from "./LaunchNav";
 
 const SignUp = () => {
     const navigate = useNavigate();
@@ -44,9 +44,10 @@ const SignUp = () => {
 
     return(
         <>
+            <LaunchNav/>
             <h1>Sign Up!</h1>
             <div className="loginform">
-                
+            
             <form  onSubmit={handleSubmit}>
                     <div className="fields">
                         <input type="text" name="user" placeholder="Create Username" onChange={e => setUserName(e.target.value)}/>
@@ -59,7 +60,7 @@ const SignUp = () => {
                     </div>
 
                     <div className="button-section-login">
-                        <button className="button add" type="button" onClick={() => {navigate('/')}}>Back To Login</button>
+                        <button className="button add" type="button" onClick={() => {navigate('/Login')}}>Back To Login</button>
                         <button className="button submit" type="submit">Create Account</button>
                     </div>
             </form>

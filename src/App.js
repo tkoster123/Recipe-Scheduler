@@ -17,11 +17,11 @@ return (
       <div className='background'>
         <Router>
           <Routes>
-            <Route exact path="/" element={<Login/>}/>
+            <Route exact path="/" element={<About/>}/>
             <Route exact path="/Home" element={<Home/>} />
             <Route exact path="/Add" element={<MealForm/>} />
             <Route exact path="/Update" element={<EditForm/>} />
-            <Route exact path="/About" element={<About/>} />
+            <Route exact path="/Login" element={<Login/>} />
             <Route exact path="/SignUp" element={<SignUp/>} />
             <Route exact path="/Planner" element={<Planner/>} />
           </Routes>

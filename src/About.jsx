@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "./NavBar";
+import LaunchNav from "./LaunchNav";
 
 import "./planner.css";
 
 const About = () => {
     return(
         <>
-            <Header/>
+            <LaunchNav/>
             <h1>About this site</h1>
             <p>If you found this website, you most likely were told about it by me!(Tristan)</p>
             <p>Current version is Beta 1.0 and subject to change a bit over time</p>

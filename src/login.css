@@ -11,7 +11,7 @@ h1 {
 .loginform {
     margin: 0;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     text-align: center;
     -ms-transform: translate(-50%, -50%);

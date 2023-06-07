@@ -1,2 +1,2 @@
-/api/*    %{process.env.HEROKU_BACKEND_URL}/api/:splat  200
+/api/*    ${HEROKU_BACKEND_URL}/api/:splat  200
 /* /index.html 200

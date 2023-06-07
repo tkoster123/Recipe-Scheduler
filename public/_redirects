@@ -1,1 +1,2 @@
-/api/*    https://food-scheduler2000.herokuapp.com/:splat  200
+/api/login    https://food-scheduler2000.herokuapp.com/api/login  200
+/* /index.html 200

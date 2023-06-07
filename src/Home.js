@@ -7,6 +7,7 @@ function Home() {
   const [reload, setReload] = useState(false); //Updated when a meal is either added,updated, or deleted
   const [currentUser, setCurrentUser] = useState(JSON.parse(localStorage.getItem('user')));
 
+  
   const getData = async (user) => {
     console.log(user);
     let response = await(
